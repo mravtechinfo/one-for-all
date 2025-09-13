@@ -85,4 +85,5 @@ making the xml payload to send to the exploit server using the burp request also
 Doing active scan on the the same burp request taking the email filed as selected parameter 
 ""<email>>jsjhjfjh@fjdh <</emai>""
 
-
+Creating a new text file of paylaod.xml using the same data from the admin account 
+getting the XML parser error
