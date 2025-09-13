@@ -71,3 +71,23 @@ Web application penetration testing
 
 
 OWASP Web Sec Testing Guide WSTG
+![[Pasted image 20250802195452.png]]
+
+
+Pre engagement phase 
+![[Pasted image 20250802212614.png]]
+![[Pasted image 20250802212659.png]]
+ EyeWitness
+ https://github.com/RedSiege/EyeWitness
+
+Website Recon and Footprinting
+![[Pasted image 20250803163314.png]]
+
+host command (DNS lookup)
+robots.txt
+sitemap
+builtwith same as wappalyzer extension browser web technology profiler
+whatweb
+httrack- website copier
+
+
