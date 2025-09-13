@@ -89,3 +89,4 @@ Creating a new text file of paylaod.xml using the same data from the admin accou
 getting the XML parser error.
 
 Putting the burp collaborator link into the xml paylaod and getting the hit back, using the same payload reading the /carlos/secret file 
+APP 2 done 
