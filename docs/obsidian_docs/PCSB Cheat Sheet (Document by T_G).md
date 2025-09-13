@@ -83,6 +83,6 @@ Now we have done chatgpt inside the same machine from which we are giving the ex
 
 making the xml payload to send to the exploit server using the burp request also chnaging the content type:text/xml
 Doing active scan on the the same burp request taking the email filed as selected parameter 
-<email>jsjhjfjh@fjdh.com </emai>
+""<email>>jsjhjfjh@fjdh <</emai>""
 
 
