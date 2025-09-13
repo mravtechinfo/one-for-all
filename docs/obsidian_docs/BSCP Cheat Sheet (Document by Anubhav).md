@@ -10,3 +10,11 @@
 Guide Wordlist - https://github.com/botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study/tree/main/wordlists
 
 Burp Extensions
+1. JWT scanner
+2. Param Miner
+3. JWT Editor
+4. Active scan++
+5. Java Deserialization Scanner
+6. HTTP Request Smuggler
+7. Server-Side Prototype Pollution Scanner
+8. InQL - GraphQL Scanner
