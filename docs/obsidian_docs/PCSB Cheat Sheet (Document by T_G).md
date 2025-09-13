@@ -73,7 +73,9 @@ Post login into normal user (i.e ak) it has change password functionality
 trying to make cors payload in GET request.
 Got the session ID in the exploit server changed it using the dev tools BOOM now you are the administrator.
 
-It again contains the same Admin  account has the API key and a feature to import user using file upload 
+It again contains the same Admin  account has the API key and a feature to import user using file upload
+
+Updating the user email to test@test.com, it seems like it is same as the previous one for sure I trust _ bhai ! 
  
 
 
