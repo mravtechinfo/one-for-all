@@ -69,7 +69,12 @@ trying to login into the account ....got the ak user (through intruder,brut forc
 
 Modifying the host with exploit server  url (post normal user going for admin role)
 Trying idor through query param ....it badly failed 
-Post login into normal user (i.e ak) it has change password fucntionlity 
+Post login into normal user (i.e ak) it has change password functionality
+trying to make cors payload in GET request.
+Got the session ID in the exploit server changed it using the dev tools BOOM now you are the administrator.
+
+It again contains the same Admin  account has the API key and a feature to import user using file upload 
+ 
 
 
 
