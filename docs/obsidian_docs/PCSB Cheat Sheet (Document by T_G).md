@@ -75,7 +75,7 @@ Burp suite flagged for Cross domain script  include
  Application 2 was detected with SQLi now using SQL Map with req.sqli, account access in application 2 is Carlos
  
 Post this logged in as admin and got the API key.
-Admin  account has the API key and a feature to import user using file upload which hints to XXE 
+Admin  account has the API key and a feature to import user using file upload (XML is uploading here) which hints to XXE 
 Going to look for XXE injection payloads on PCSB guide repo
 
 
