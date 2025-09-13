@@ -86,4 +86,6 @@ Doing active scan on the the same burp request taking the email filed as selecte
 ""<email>>jsjhjfjh@fjdh <</emai>""
 
 Creating a new text file of paylaod.xml using the same data from the admin account 
-getting the XML parser error
+getting the XML parser error.
+
+Putting the burp collaborator link into the xml paylaod and getting the hit back, using the same payload reading the /carlos/secret file 
