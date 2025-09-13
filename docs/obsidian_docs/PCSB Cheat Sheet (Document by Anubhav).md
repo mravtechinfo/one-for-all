@@ -36,3 +36,5 @@
 - Server-Side Prototype Pollution Scanner
     
 - InQL - GraphQL Scanner
+
+
