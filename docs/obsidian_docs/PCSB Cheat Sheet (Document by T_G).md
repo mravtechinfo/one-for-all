@@ -42,3 +42,37 @@
 
 Exp-1 8:18 am 
 
+Two test applications
+**Application No 1**
+Standard burp blog website with **exploit server, my account page and admin panel**
+Exploit server has email to client function
+Using DOM invader trying for DOM based XSS over all input fields
+Trying on GET request that contains **referer header** 
+remove all the headers of request (get) only the http method and cookie left still requests response was 200 ok 
+Intruding the same modified get request (removed content) through intruder using payload list ________________
+__ ?
+
+Checking the exploit server for the POST request of /new_password 
+
+Scanning the same original home page GET request through BURP scanner (active scanning)
+Again working on App1
+On blog post comment section part 
+It also has a refresh_password functn that takes username as input and send the email for refreshing the password 
+
+
+**Switched to Application 2**
+This application contains Admin panel, my account and advanced search tabs and again it is a regular burp suite lab app.
+Doing the same actitvity of modifying home page GET request and here only modified the host name and it says in-valid in the response 
+similary fuzzed this request using intruder with payload count of (4k approx)
+Adding the X-forwarded-host header into the same GET request getting response as 400 bad request 
+Checking the exam notes (----out)
+Working with the exploit server for app no 2 
+Sending alert(1) as payload to the victim of application no 2
+Burp suite flagged for Cross domain script  include
+
+**after seeing the repeater and browser I am also not able to define ki bhai app 1 exploit ho rha h ya app 2 bda confusion h while shadowing for documentation**
+
+
+
+
+
