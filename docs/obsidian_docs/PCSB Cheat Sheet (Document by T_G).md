@@ -40,7 +40,7 @@
 
 
 
-Exp-1 8:18 am 
+Exp-1 
 
 Two test applications
 **Application No 1**
@@ -114,3 +114,7 @@ Putting the burp collaborator link into the xml paylaod and getting the hit back
 APP 2 done 
 
 Now going to app 1 (Ab maza ayega yha se)
+
+
+Exp2 
+
