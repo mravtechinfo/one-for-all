@@ -67,7 +67,7 @@ Now he again continues....
 
 trying to login into the account ....got the ak user (through intruder)
 
-Modifying the host with attacker url (post normal user going for admin role)
+Modifying the host with exploit server  url (post normal user going for admin role)
 
 
 
