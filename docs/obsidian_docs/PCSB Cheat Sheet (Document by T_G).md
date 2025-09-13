@@ -90,3 +90,5 @@ getting the XML parser error.
 
 Putting the burp collaborator link into the xml paylaod and getting the hit back, using the same payload reading the /carlos/secret file 
 APP 2 done 
+
+Now going to app 1 (Ab maza ayega yha se)
