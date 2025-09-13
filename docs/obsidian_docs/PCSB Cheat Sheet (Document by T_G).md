@@ -59,9 +59,10 @@ Again working on App1
 On blog post comment section part 
 It also has a refresh_password functn that takes username as input and send the email for refreshing the password 
 Working with the exploit server again here where we left few minutes back.....
-Again this app has admin pannel, my account page (forgot password is there) and exploit server (quick recap)
+Again this app has admin pannel, my account page (forgot password is there) and exploit server (quick recap here blog post doesn't have the comment functionality)
 working on the refresh_password (POST) request again 
-In referrer header putting the exploit server url it is not working  
+In referrer header putting the exploit server url it is not working I guess.....
+**exp-1 candidate is now killing time** 
 
 
 
