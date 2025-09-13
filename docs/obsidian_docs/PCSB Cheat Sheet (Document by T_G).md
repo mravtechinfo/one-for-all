@@ -81,4 +81,8 @@ Going to look for XXE injection payloads on PCSB guide repo
 Making the exploit payload and using the exploit server to send it to the victim
 Now we have done chatgpt inside the same machine from which we are giving the exam......(heart beat skipped !!!!)
 
+making the xml payload to send to the exploit server using the burp request also chnaging the content type:text/xml
+Doing active scan on the the same burp request taking the email filed as selected parameter 
+<email>jsjhjfjh@fjdh.com </emai>
+
 
