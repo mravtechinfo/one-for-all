@@ -58,6 +58,12 @@ Scanning the same original home page GET request through BURP scanner (active sc
 Again working on App1
 On blog post comment section part 
 It also has a refresh_password functn that takes username as input and send the email for refreshing the password 
+Working with the exploit server again here where we left few minutes back.....
+Again this app has admin pannel, my account page and exploit server (quick recap)
+
+
+
+
 
 
 **Switched to Application 2**
