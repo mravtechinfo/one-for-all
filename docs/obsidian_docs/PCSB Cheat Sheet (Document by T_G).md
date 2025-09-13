@@ -70,9 +70,10 @@ Working with the exploit server for app no 2
 Sending alert(1) as payload to the victim of application no 2
 Burp suite flagged for Cross domain script  include
 
-**after seeing the repeater and browser I am also not able to define ki bhai app 1 exploit ho rha h ya app 2 bda confusion h while shadowing for documentation**
+~~after seeing the repeater and browser I am also not able to define ki bhai app 1 exploit ho rha h ya app 2 bda confusion h while shadowing for documentation
 
-
+ Application 2 was detected with SQLi now using SQL Map with req.sqli, account access in application 2 is Carlos
+ 
 
 
 
