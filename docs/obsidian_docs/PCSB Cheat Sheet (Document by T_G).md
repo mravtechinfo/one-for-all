@@ -65,10 +65,11 @@ In referrer header putting the exploit server url it is not working I guess.....
 **exp-1 candidate is now killing time**
 Now he again continues....
 
-trying to login into the account ....got the ak user (through intruder)
+trying to login into the account ....got the ak user (through intruder,brut forcing)
 
 Modifying the host with exploit server  url (post normal user going for admin role)
-
+Trying idor through query param ....it badly failed 
+Post login into normal user (i.e ak) it has change password fucntionlity 
 
 
 
