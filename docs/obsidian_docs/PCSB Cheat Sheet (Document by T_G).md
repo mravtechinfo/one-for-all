@@ -78,5 +78,7 @@ Post this logged in as admin and got the API key.
 Admin  account has the API key and a feature to import user using file upload (XML is uploading here) which hints to XXE 
 Going to look for XXE injection payloads on PCSB guide repo
 
+Making the exploit payload and using the exploit server to send it to the victim
+Now we have done chatgpt inside the same machine from which we are giving the exam......(heart beat skipped !!!!)
 
 
