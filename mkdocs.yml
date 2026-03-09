@@ -1,26 +1,83 @@
-site_name: My site
-site_url: https://mydomain.org/mysite
-theme:
-  palette: 
+site_name: My Cybersecurity Blog
+site_description: A personal blog documenting my offensive security journey — certifications, courses, labs, and pentesting notes.
+site_author: mravtechinfo
 
+theme:
+  name: material
+  palette:
     # Palette toggle for light mode
     - scheme: default
+      primary: indigo
+      accent: deep purple
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
+      primary: indigo
+      accent: deep purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+nav:
+  - Home: index.md
+  - Courses:
+      - INE EWPTX: obsidian_docs/INE EWPTX.md
+      - API Security University: obsidian_docs/API Sec University.md
+      - Android App Hacking - Black Belt Edition: obsidian_docs/Android App Hacking - Black Belt Edition.md
+  - Certifications:
+      - CEH Practical v13 2025: obsidian_docs/CEH Practical v13 2025.md
+  - Labs & Writeups:
+      - HackxpertLab: obsidian_docs/HackxpertLab.md
+      - PortSwigger Labs: obsidian_docs/Port Swigger Labs.md
+  - Cheat Sheets:
+      - PCSB Cheat Sheet: obsidian_docs/PCSB Cheat Sheet (Document by T_G).md
+  - Tools & Techniques:
+      - Pentesting Thick Client Applications: obsidian_docs/Pentesting thick client applications.md
+
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
   - pymdownx.blocks.caption
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - toc:
+      permalink: true
 
 plugins:
+  - search:
+      lang: en
   - glightbox
   - markdown-exec
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mravtechinfo
